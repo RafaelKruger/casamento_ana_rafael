@@ -1,0 +1,9 @@
+@import url("/css/default.css");
+
+table a {
+  text-decoration: none;
+}
+
+input {
+  border-color: #fa2424;
+}

@@ -1,0 +1,102 @@
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  padding: 1.4rem;
+  margin: auto;
+  text-align: center;
+  background: linear-gradient(#fa2424, #df1178);
+}
+
+header > a,
+nav > a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(29, 29, 29);
+}
+
+header > a:hover,
+nav > a:hover {
+  text-shadow: 1px 2px 4px rgb(25, 25, 25);
+}
+/* 
+.content {
+  margin: 1rem 2rem;
+  color: #4686a1;
+}
+.content h1,
+.content h2 {
+  text-align: center;
+  color: #000;
+}
+.content p {
+  text-align: justify;
+} */
+
+.my-primary-color {
+  background-color: #fa2424;
+}
+
+.my-second-color {
+  background-color: #df1178;
+}
+
+.my-text-primary-color {
+  color: #fff;
+}
+
+.my-text-second-color {
+  color: #000;
+}
+
+.my-text-third-color {
+  color: rgb(119, 119, 119);
+}
+
+#footer {
+  background: linear-gradient(#df08cd, #fa2424);
+  color: #fff;
+  text-shadow: 1px 1px 2px rgb(29, 29, 29);
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: justify;
+}
+
+#footer > a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#footer > a:hover {
+  background-color: white;
+  color: #fa2424;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 1.1rem;
+  }
+}

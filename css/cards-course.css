@@ -1,0 +1,52 @@
+.menu-option {
+  max-width: 440px;
+  margin: 1rem 0.5rem 0 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 8px rgba(32, 32, 32, 0.712);
+  background-color: #df1178;
+}
+
+.menu-option:hover {
+  box-shadow: 5px 7px 12px rgba(28, 28, 28, 0.9);
+}
+
+.menu-option a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(94, 146, 148, 0.699);
+}
+.menu-option .pic > img {
+  height: 17rem;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  object-fit: cover;
+}
+
+.menu-option .title {
+  text-align: center;
+}
+
+.menu-option .content {
+  padding: 0rem 1rem 1rem 1rem;
+  color: #fff;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  #menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .menu-option {
+    width: 47%;
+  }
+}
